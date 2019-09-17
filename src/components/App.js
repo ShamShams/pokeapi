@@ -7,7 +7,7 @@ import { PokeNumForm, AppContainer, Logo, Text, Pokedex } from "../styled-compon
 const App = () => {
   const [num, setNum] = useState("");
   const [pokemon, setPokemon] = useState(null);
-  const [phrase, setPhrase] = useState("Tape a Pokemon number...");
+  const [phrase, setPhrase] = useState("Type a Pokemon id from 1 to 802...");
 
   const getPokemon = async e => {
     e.preventDefault();
@@ -32,7 +32,8 @@ const App = () => {
         inputValue={num}
         buttonText="FIND"
       />
-      {pokemon ? <Pokedex data={pokemon} /> : <Text>{phrase}</Text>}
+      <Text>{phrase}</Text>
+      {pokemon && <Pokedex data={pokemon} />}
     </AppContainer>
   );
 };

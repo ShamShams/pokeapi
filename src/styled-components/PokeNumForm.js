@@ -2,10 +2,6 @@ import React from "react";
 import styled from "styled-components";
 import { colors } from "../variables";
 
-const Form = styled.form`
-  margin-bottom: 50px;
-`;
-
 const TextInput = styled.input`
   height: 23px;
   width: 60px;
@@ -30,10 +26,10 @@ const Button = styled.button`
 `;
 
 const PokeNumForm = ({ onSubmit, onValueChange, inputValue, buttonText }) => (
-  <Form onSubmit={onSubmit}>
+  <form onSubmit={onSubmit}>
     <TextInput type="text" onChange={onValueChange} value={inputValue} />
     <Button type="submit">{buttonText}</Button>
-  </Form>
+  </form>
 );
 
 export default PokeNumForm;
