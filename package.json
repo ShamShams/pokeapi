@@ -1,6 +1,6 @@
 {
   "name": "pokeapi",
-  "homepage": "https://shamshams.github.io/PokeAPI",
+  "homepage": "https://shamshams.github.io/pokeapi",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
