@@ -1,9 +1,8 @@
 import React, { useState } from "react";
 import axios from "axios";
 
-import "../stylesheets/App.css";
 import logo from "../images/Pokemon_logo.png";
-import Pokedex from "./Pokedex";
+import { PokeNumForm, AppContainer, Logo, Text, Pokedex } from "../styled-components";
 
 const App = () => {
   const [num, setNum] = useState("");
@@ -25,15 +24,19 @@ const App = () => {
   };
 
   return (
-    <div className="App">
-      <img className="logo" src={logo} alt="logo Pokémon" />
-      <form className="Input" onSubmit={getPokemon}>
-        <input type="text" onChange={e => setNum(e.target.value)} value={num} />
-        <button type="submit">FIND</button>
-      </form>
-      {pokemon ? <Pokedex data={pokemon} /> : <p className="Text">{phrase}</p>}
-    </div>
+    <AppContainer>
+      <Logo src={logo} alt="Logo Pokémon" />
+      <PokeNumForm
+        onSubmit={getPokemon}
+        onValueChange={e => setNum(e.target.value)}
+        inputValue={num}
+        buttonText="FIND"
+      />
+      {pokemon ? <Pokedex data={pokemon} /> : <Text>{phrase}</Text>}
+    </AppContainer>
   );
 };
 
 export default App;
+
+// Gotta Catch 'Em All
