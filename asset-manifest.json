@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/PokeAPI/static/css/main.7e73f9fe.chunk.css",
-    "main.js": "/PokeAPI/static/js/main.2b260436.chunk.js",
-    "main.js.map": "/PokeAPI/static/js/main.2b260436.chunk.js.map",
-    "runtime~main.js": "/PokeAPI/static/js/runtime~main.c6445bd0.js",
-    "runtime~main.js.map": "/PokeAPI/static/js/runtime~main.c6445bd0.js.map",
-    "static/js/2.68838afc.chunk.js": "/PokeAPI/static/js/2.68838afc.chunk.js",
-    "static/js/2.68838afc.chunk.js.map": "/PokeAPI/static/js/2.68838afc.chunk.js.map",
-    "index.html": "/PokeAPI/index.html",
-    "precache-manifest.43b05d000a463439f7cc94f955f5ff5b.js": "/PokeAPI/precache-manifest.43b05d000a463439f7cc94f955f5ff5b.js",
-    "service-worker.js": "/PokeAPI/service-worker.js",
-    "static/css/main.7e73f9fe.chunk.css.map": "/PokeAPI/static/css/main.7e73f9fe.chunk.css.map",
-    "static/media/Pokemon_logo.png": "/PokeAPI/static/media/Pokemon_logo.8f80a92d.png"
+    "main.css": "/pokeapi/static/css/main.7e73f9fe.chunk.css",
+    "main.js": "/pokeapi/static/js/main.2b260436.chunk.js",
+    "main.js.map": "/pokeapi/static/js/main.2b260436.chunk.js.map",
+    "runtime~main.js": "/pokeapi/static/js/runtime~main.3b602036.js",
+    "runtime~main.js.map": "/pokeapi/static/js/runtime~main.3b602036.js.map",
+    "static/js/2.68838afc.chunk.js": "/pokeapi/static/js/2.68838afc.chunk.js",
+    "static/js/2.68838afc.chunk.js.map": "/pokeapi/static/js/2.68838afc.chunk.js.map",
+    "index.html": "/pokeapi/index.html",
+    "precache-manifest.c9fc5e39add519fa579949f1c89cb091.js": "/pokeapi/precache-manifest.c9fc5e39add519fa579949f1c89cb091.js",
+    "service-worker.js": "/pokeapi/service-worker.js",
+    "static/css/main.7e73f9fe.chunk.css.map": "/pokeapi/static/css/main.7e73f9fe.chunk.css.map",
+    "static/media/Pokemon_logo.png": "/pokeapi/static/media/Pokemon_logo.8f80a92d.png"
   }
 }
